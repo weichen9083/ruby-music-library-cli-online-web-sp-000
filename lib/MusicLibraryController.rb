@@ -20,6 +20,7 @@ class MusicLibraryController
       puts "To quit, type 'exit'."
       puts "What would you like to do?"
       input = gets.chomp
+<<<<<<< HEAD
       
       case input
       when 'list songs'
@@ -40,6 +41,8 @@ class MusicLibraryController
         "Type in a valid request please"
       end
 
+=======
+>>>>>>> 13a247c3c08687f7360a973f3f5bb89a672a84dc
     end 
 
 
@@ -52,7 +55,10 @@ class MusicLibraryController
     i+=1
     puts "#{i}. #{song.artist.name} - #{song.name} - #{song.genre.name}"
   end 
+<<<<<<< HEAD
   x
+=======
+>>>>>>> 13a247c3c08687f7360a973f3f5bb89a672a84dc
   end 
   
   def list_artists
@@ -61,7 +67,10 @@ class MusicLibraryController
     i+=1
     puts "#{i}. #{artist.name}"
   end
+<<<<<<< HEAD
   
+=======
+>>>>>>> 13a247c3c08687f7360a973f3f5bb89a672a84dc
 end 
 
  def list_genres
@@ -73,6 +82,7 @@ end
 end 
 
 
+<<<<<<< HEAD
   def list_songs_by_artist
     puts "Please enter the name of an artist:"
     input = gets.strip
@@ -91,12 +101,16 @@ end
   
   
   
+=======
+def list_songs_by_artist
+>>>>>>> 13a247c3c08687f7360a973f3f5bb89a672a84dc
 end 
 
 
 
 
 
+<<<<<<< HEAD
   def list_songs_by_genre
     puts "Please enter the name of a genre:"
     input = gets.strip
@@ -120,6 +134,35 @@ def play_song
   
   
 end 
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 13a247c3c08687f7360a973f3f5bb89a672a84dc
 
 
 end 
